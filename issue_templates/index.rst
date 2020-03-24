@@ -1,6 +1,8 @@
 Bugs with Sphinx C++ domain template parameters
 ===============================================
 
+These are all resolved on sphinx 3.0.x branch.
+
 .. cpp:class:: template <Requires<A or B>> foo
 
     Broken because of `or`
