@@ -29,7 +29,7 @@ Bugs with Sphinx C++ domain template parameters
     Works using `!`
 
 
-.. cpp:class:: template <Requires<std::enable_if_t<B, std::nullptr_t> = nullptr>> foo
+.. cpp:class:: template <Requires<B> = nullptr> foo
 
     Broken because of `=`
 
