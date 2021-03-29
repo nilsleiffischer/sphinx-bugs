@@ -1,0 +1,12 @@
+
+PROJECT_NAME            = "Doxygen template issues"
+INPUT                   = src/my_func.hpp
+OUTPUT_DIRECTORY        = docs
+CASE_SENSE_NAMES        = NO
+ENABLE_PREPROCESSING    = YES
+QUIET                   = YES
+GENERATE_HTML           = YES
+GENERATE_XML            = YES
+GENERATE_LATEX          = NO
+GENERATE_MAN            = NO
+GENERATE_RTF            = NO
